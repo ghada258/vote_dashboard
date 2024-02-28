@@ -5,7 +5,7 @@ body{
     height: 100vh;
     width: 100vw;
     font-family: $fontFamily;
-    background-color: $mainColor;
+    background-color: $white;
     text-transform: capitalize;
     
 }
@@ -17,4 +17,79 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
+.sidebar{
+    background-color: $mainColor;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem 0;
+    width: 304px;
+    height: 100vh;
+    border-radius:0px 50px 20px 20px;
+
+
+    .topSidebar{
+        align-items: center;
+        justify-content: center;
+ 
+       
+         .profile{
+            padding: 0 0 0 7rem;
+ 
+         }
+ 
+ 
+          h2.nameuser{
+             font-size: 20px;
+             color: $white;
+             padding: 0 0 0 4rem;
+             text-transform: capitalize;
+          }
+
+
+
+     }
+
+
+     .sidebarcontainer{
+        margin: 2rem 0 0 0;
+
+        ul{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: row;
+                margin: 10px 0px 10px 60px ;
+                width: 100%;
+                border-radius: 1rem;
+
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    font-size: 20px;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 0 0 0 20px;
+                }
+            }
+
+
+        }
+     }
+      
+}  
+
+     
+
 
